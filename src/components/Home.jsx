@@ -20,7 +20,7 @@ const Home = () => {
           from the conception to the deployment.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-gray-600">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover: border-blue-600 ">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />

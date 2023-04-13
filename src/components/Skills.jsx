@@ -11,7 +11,7 @@ import Vite from "../assets/Vite.png";
 const Skills = () => {
   return (
     <div
-      name="Skills"
+      name="skills"
       className=" w-full h-screen bg-[#0a192f]  text-gray-300 "
     >
       {/* Container */}
