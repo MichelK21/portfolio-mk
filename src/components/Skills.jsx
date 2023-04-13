@@ -6,6 +6,7 @@ import MongoDB from "../assets/mongo.png";
 import Firebase from "../assets/firebase.png";
 import Vercel from "../assets/Vercel.png";
 import React from "../assets/react.png";
+import Vite from "../assets/Vite.png";
 
 const Skills = () => {
   return (
@@ -55,6 +56,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={React} alt="HTML Logo" />
             <p className="my-4">React / React Native</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Vite} alt="HTML Logo" />
+            <p className="my-4">Vite</p>
           </div>
         </div>
       </div>
