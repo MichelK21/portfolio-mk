@@ -3,15 +3,15 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import { useTypewriter } from "react-simple-typewriter";
-import Fade from "react-reveal/Fade";
-import Flash from "react-reveal/Flash";
+// import Fade from "react-reveal/Fade";
+// import Flash from "react-reveal/Flash";
 
 const Home = () => {
   const [nav, SetNav] = useState(false);
   const handleClick = () => SetNav(!nav);
   const [text] = useTypewriter({
     words: ["I'm a Full Stack Developper"],
-    loop: 2,
+    loop: 6,
   });
 
   return (
@@ -19,22 +19,25 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-white text-[25px]"> Hi, my name is </p>
-        <Flash>
-          <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-            Michel KACOU
-          </h1>
-        </Flash>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          {/* I'm a Full Stack Developper */} {text}
-        </h2>
-        <Fade left>
-          <p className="text-white py-4 max-w-[700px]">
-            {" "}
+        {/* <Flash> */}
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] z-auto">
+          Michel KACOU
+        </h1>
+        {/* </Flash> */}
+        <div className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+          <h2>
+            {/* I'm a Full Stack Developper */} {text}
+          </h2>
+        </div>
+        <div className="text-white py-4 max-w-[700px]">
+          {/* <Fade left> */}
+          <p>
             I'm a Full Stack Developper with a background in front-end and
             back-end programming, I'm capable to build a website or an mobile
             app from the conception to the deployment.
           </p>
-        </Fade>
+          {/* </Fade> */}
+        </div>
         <div>
           <button
             onClick={handleClick}
