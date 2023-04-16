@@ -118,7 +118,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/michel-k-a201391bb/"
+              target="_blank"
+              rel="noreferrer"
             >
               {/* <FaLinkedin /> */}Linkedin
               <FaLinkedin size={30} />
@@ -127,7 +129,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/MichelK21"
+              target="_blank"
+              rel="noreferrer"
             >
               Github
               <FaGithub size={30} />
@@ -136,7 +140,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              mailto="mailto:michelkacou10@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
               Email
               <HiOutlineMail size={30} />

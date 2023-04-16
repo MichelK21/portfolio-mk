@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import { useRef, useEffect } from "react";
+// import { useRef, useEffect } from "react";
 
 function App() {
   // const observer = new IntersectionObserver((entries) => {
@@ -17,16 +17,16 @@ function App() {
   //     }
   //   });
   // });
-  const myRef = useRef();
-  useEffect(() => {
-    console.log("aaa");
-  }, []);
+  // const myRef = useRef();
+  // useEffect(() => {
+  //   console.log("aaa");
+  // }, []);
 
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <About ref={myRef} />
+      <About /*ref={myRef} *//>
       <Skills />
       <Work />
       <Contact />

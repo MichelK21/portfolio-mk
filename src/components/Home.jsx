@@ -44,13 +44,11 @@ const Home = () => {
           </h2>
         </div>
         <div className="text-white py-4 max-w-[700px]">
-          {/* <Fade left> */}
           <p>
             I'm a Full Stack Developper with a background in front-end and
             back-end programming, I'm capable to build a website or an mobile
             app from the conception to the deployment.
           </p>
-          {/* </Fade> */}
         </div>
         <div>
           <Link to="work" smooth={true} duration={500}>
