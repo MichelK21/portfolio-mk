@@ -10,7 +10,7 @@ const Home = () => {
   const [nav, SetNav] = useState(false);
   const handleClick = () => SetNav(!nav);
   const [name, setName] = useState("");
-  const [fullName, setFullName] = useState("Michel KACOU");
+  const [fullName] = useState("Michel KACOU");
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
         setIndex(index + 1);
       }, 40);
     }
-  }, [index]);
+  }, [index, fullName, name]);
 
   const [text] = useTypewriter({
     words: ["I'm a Full Stack Developper"],
