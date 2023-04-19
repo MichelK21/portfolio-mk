@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 // import { useRef, useEffect } from "react";
+import Cv from "./components/Cv";
 
 function App() {
   // const observer = new IntersectionObserver((entries) => {
@@ -26,10 +27,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      <About /*ref={myRef} *//>
+      <About /*ref={myRef} */ />
       <Skills />
       <Work />
       <Contact />
+      <Cv />
     </div>
   );
 }
