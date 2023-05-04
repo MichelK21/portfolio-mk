@@ -32,6 +32,7 @@ const About = () => {
               corporation, I'm committed to delivering high-quality digital
               products that meet the needs of any client.
             </p>
+
             {/* </Fade> */}
           </div>
         </div>

@@ -7,6 +7,8 @@ import Lyriks from "../assets/projects/lyriks.jpg";
 // import Locapic from "../assets/locapic";
 // import MyMoviz from "../assets/mymoviz";
 // import MorningNews from "../assets/morningnews";
+import Videos from "./Videos";
+import RecycleNow from "../assets/projects/recycleNow.png";
 
 const Work = () => {
   return (
@@ -30,17 +32,21 @@ const Work = () => {
             {/* Hover effects */}
 
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                Dall-E Clone
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg gray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a
+                  href="https://github.com/MichelK21/dalle-clone-mk"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg gray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -61,10 +67,14 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Demo <Videos />
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/MichelK21/Punchline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -89,7 +99,11 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/MichelK21/linkedin-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -98,15 +112,15 @@ const Work = () => {
             </div>
           </div>
           {/* grid items */}
-          {/* <div
-            style={{ backgroundImage: `url(${Dalle})` }}
+          <div
+            style={{ backgroundImage: `url(${RecycleNow})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* Hover effects */}
-          {/* 
+          >
+            {" "}
+            *{/* Hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Morning News
+              <span className="text-2xl font-bold text-white tracking-wider text-center">
+                Recycle Now
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -114,14 +128,14 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/abdouthetif/save-front">
                   <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* grid items */}
           {/* <div
             style={{ backgroundImage: `url(${Dalle})` }}

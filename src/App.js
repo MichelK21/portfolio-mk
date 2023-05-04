@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 // import { useRef, useEffect } from "react";
 import Cv from "./components/Cv";
+import Videos from "./components/Videos";
 
 function App() {
   // const observer = new IntersectionObserver((entries) => {
@@ -32,6 +33,7 @@ function App() {
       <Work />
       <Contact />
       <Cv />
+      <Videos />
     </div>
   );
 }
