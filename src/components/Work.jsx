@@ -1,14 +1,10 @@
 import React from "react";
-// import RecycleNow from "../assets/recycleNow";
-// import WorkImg from "../assets/workImg.jpeg";
 import Linkedin from "../assets/projects/linkedin.jpg";
 import Dalle from "../assets/projects/dalle-img.jpg";
 import Lyriks from "../assets/projects/lyriks.jpg";
-// import Locapic from "../assets/locapic";
-// import MyMoviz from "../assets/mymoviz";
-// import MorningNews from "../assets/morningnews";
 import Videos from "./Videos";
-import RecycleNow from "../assets/projects/recycleNow.png";
+// import RecycleNow from "../assets/recycleNow";
+// import RecycleNow from "../assets/projects/recycleNow.png";
 
 const Work = () => {
   return (
@@ -111,13 +107,13 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* grid items */}
-          <div
+          {/* grid items
+           <div
             style={{ backgroundImage: `url(${RecycleNow})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {" "}
-            *{/* Hover effects */}
+            *Hover effects
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 Recycle Now
@@ -134,8 +130,8 @@ const Work = () => {
                   </button>
                 </a>
               </div>
-            </div>
-          </div>
+            </div> 
+          </div>  */}
           {/* grid items */}
           {/* <div
             style={{ backgroundImage: `url(${Dalle})` }}
