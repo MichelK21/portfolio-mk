@@ -7,6 +7,9 @@ import Videos from "./Videos";
 // import RecycleNow from "../assets/projects/recycleNow.png";
 
 const Work = () => {
+  const VIDEO_LYRIKS = "assets/videos/Lyriks-cmprssed.mp4";
+  const VIDEO_DALLE = "assets/videos/dall-e-cmpressed.mp4";
+
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       {/* Container */}
@@ -34,7 +37,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg gray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Demo <Videos videosDemo={VIDEO_DALLE} />
                   </button>
                 </a>
                 <a
@@ -63,7 +66,7 @@ const Work = () => {
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rouded-lggray px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo <Videos />
+                    Demo <Videos videosDemo={VIDEO_LYRIKS} />
                   </button>
                 </a>
                 <a
